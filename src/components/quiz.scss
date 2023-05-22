@@ -1,0 +1,101 @@
+.modal {
+    width: 500px;
+    min-height: 510px;
+    margin: auto;
+    margin-top: 2%;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 6px 40px rgba(254,118,119,.45098);
+    &__logo {
+      width: 80px;
+    }
+    &__title {
+      margin-top: 10px;
+      padding: 2px;
+    }
+    &__header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 15px 0px 15px;
+    }
+    &__background {
+        background-size: cover;
+        height: 220px;
+        transition: all 1s ease 0s;
+    }
+    &__previous {
+        width: 20px;
+        &__button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+          }
+          
+          .custom-button-icon {
+            fill: #000; /* Цвет SVG-иконки */
+            width: 20px; /* Ширина SVG-иконки */
+            height: 20px; /* Высота SVG-иконки */
+          }
+          
+    }
+    &__counter {
+      display: block;
+      color: #5fcad3;
+      display: flex;
+      font-size: 13px;
+      align-items: center;
+      &__curent-step {
+        background: #5fcad3;
+        color: #fff;
+        padding: 4px;
+        border-radius: 13px;
+        border-radius: 13px;
+        height: 12px;
+        width: 12px;
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        align-items: center;
+      }
+      &__all-steps {
+        font-weight: bold;
+        display: flex;
+      }
+    }
+
+    &__item-choice {
+      margin-top: 10px;
+      padding: 12px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+
+      & div {
+        margin-bottom: 10px;
+        background: #fe7677;
+        border-radius: 30px;
+        background: #fe7677;
+        border-color: #fe7677;
+        font-size: 16px;
+        padding-top: 11px;
+        padding-bottom: 10px;
+        width: 95%;
+        height: 27px;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 600;
+      }
+    }
+}
+
+.item-choice {
+  color: red
+}
