@@ -1,5 +1,5 @@
 import "./App.scss";
-import Modal from "./components/Modal";
+import Modal from "./components/modal/Modal";
 
 function App() {
   return (

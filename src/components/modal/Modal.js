@@ -3,7 +3,7 @@ import "./modal.scss";
 import image1 from "./images/image1.jpg";
 import image2 from "./images/image2.jpg";
 import logo from "./images/logo.png";
-import ModalResult from "./modalResult/ModalResult";
+import ModalResult from "../modalResult/ModalResult";
 
 const questions = [
   {
