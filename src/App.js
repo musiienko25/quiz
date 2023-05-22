@@ -1,10 +1,10 @@
 import "./App.scss";
-import Quiz from "./components/Quiz";
+import Modal from "./components/Modal";
 
 function App() {
   return (
     <div className="App">
-      <Quiz />
+      <Modal />
     </div>
   );
 }

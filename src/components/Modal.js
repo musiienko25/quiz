@@ -47,7 +47,7 @@ const questions = [
 
 const images = [image1, image2, image1, image2, image1];
 
-const Quiz = () => {
+const Modal = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answers, setAnswers] = useState([]);
   const [backgroundImage, setBackgroundImage] = useState(images[0]);
@@ -146,4 +146,4 @@ const Quiz = () => {
   );
 };
 
-export default Quiz;
+export default Modal;
