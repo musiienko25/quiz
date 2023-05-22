@@ -8,7 +8,7 @@ import ModalResult from "../modalResult/ModalResult";
 const questions = [
   {
     question: "Select your baby’s gender",
-    options: ["a)BOY", "b) GIRL"],
+    options: ["a) BOY", "b) GIRL"],
   },
   {
     question: "How old is your baby?",
