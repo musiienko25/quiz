@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import "./quiz.scss";
+import "./modal.scss";
 import image1 from "./images/image1.jpg";
 import image2 from "./images/image2.jpg";
 import logo from "./images/logo.png";
+import ModalResult from "./modalResult/ModalResult";
 
 const questions = [
   {
@@ -79,19 +80,7 @@ const Modal = () => {
   };
 
   if (currentQuestion === questions.length) {
-    return (
-      <div>
-        <h2>Quiz Results</h2>
-        <ul>
-          {answers.map((answer, index) => (
-            <li key={index}>
-              Question {index + 1}: {answer}
-            </li>
-          ))}
-        </ul>
-        <button onClick={handleRestart}>Restart Quiz</button>
-      </div>
-    );
+    return <ModalResult handleRestart={handleRestart} answers={answers} />;
   }
 
   const currentQuestionData = questions[currentQuestion];
