@@ -13,7 +13,9 @@ function ModalResult({ answers, handleRestart }) {
             </li>
           ))}
         </ul>
-        <button onClick={handleRestart}>Restart Quiz</button>
+        <button className="custom-button" onClick={handleRestart}>
+          Restart Quiz
+        </button>
       </div>
     </div>
   );
